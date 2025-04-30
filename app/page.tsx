@@ -10,7 +10,7 @@ export default function Home() {
       <header className="sticky top-0 z-40 border-b bg-background">
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
-            <Tool className="h-6 w-6 text-primary" />
+          <img src="/power-tiller.png" alt="Power Tiller Logo"className="w-20 h-auto mx-auto mb-4"/>
             <span className="text-xl font-bold">VST Power Tiller Service</span>
           </div>
           <nav className="hidden md:flex gap-6">
