@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
       {/* Navbar */}
-      <header className="sticky top-0 z-40 border-b bg-background">
+      <header className="sticky top-0 z-40 border-b bg-background relative bg-gradient-to-r from-accent/50 to-secondary/30">
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
           <img src="/power-tiller.png" alt="Power Tiller Logo"className="w-20 h-auto mx-auto mb-4"/>
