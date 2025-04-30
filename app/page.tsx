@@ -129,7 +129,7 @@ export default function Home() {
               <div className="overflow-hidden rounded-lg border-2 border-accent bg-card shadow-md hover:shadow-lg transition-all duration-300">
                 <div className="relative h-60 w-full">
                   <Image
-                    src="/placeholder.svg?height=240&width=500"
+                    src="/power1.png?height=240&width=500"
                     alt="VST 12HP Power Tiller"
                     fill
                     className="object-cover"
@@ -164,7 +164,7 @@ export default function Home() {
               <div className="overflow-hidden rounded-lg border-2 border-accent bg-card shadow-md hover:shadow-lg transition-all duration-300">
                 <div className="relative h-60 w-full">
                   <Image
-                    src="/placeholder.svg?height=240&width=500"
+                    src="/power2.webp?height=240&width=500"
                     alt="VST 10HP Power Tiller"
                     fill
                     className="object-cover"
