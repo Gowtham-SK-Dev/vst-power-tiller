@@ -6,12 +6,16 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "VST Power Tiller Service & Sales - Expert Mechanic Shop",
+  title: "VST Power Tiller Service & Sales - Expert Mechanic Shop in Erode",
   description:
     "Professional VST power tiller sales, service, and repairs at 52, MAIN STREET, Periya Semmandam Palayam. Specialized in 12HP and 10HP models. Contact Kulandhaivel at 9944572340 for all your power tiller needs.",
   keywords:
-    "VST power tiller, tiller repair, tiller service, agricultural equipment, farm machinery, 12HP tiller, 10HP tiller, mechanic shop, Periya Semmandam Palayam, Tamil Nadu",
-    generator: 'v0.dev'
+    "VST power tiller, tiller repair, tiller service, agricultural equipment, farm machinery, 12HP tiller, 10HP tiller, mechanic shop, Periya Semmandam Palayam, Erode, Tamil Nadu",
+
+
+  // name : "google-site-verification",
+  // content : "K8-zobq8oN6f-5GgFNVaBuGk6chDEMM2cItIoEBTb_U",
+  "google-site-verification" : "K8-zobq8oN6f-5GgFNVaBuGk6chDEMM2cItIoEBTb_U",  
 }
 
 export default function RootLayout({
