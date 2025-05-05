@@ -13,9 +13,9 @@ export const metadata = {
     "VST power tiller, tiller repair, tiller service, agricultural equipment, farm machinery, 12HP tiller, 10HP tiller, mechanic shop, Periya Semmandam Palayam, Erode, Tamil Nadu",
 
 
-  // name : "google-site-verification",
-  // content : "K8-zobq8oN6f-5GgFNVaBuGk6chDEMM2cItIoEBTb_U",
-  "google-site-verification" : "K8-zobq8oN6f-5GgFNVaBuGk6chDEMM2cItIoEBTb_U",  
+    other: {
+      "google-site-verification": "K8-zobq8oN6f-5GgFNVaBuGk6chDEMM2cItIoEBTb_U",
+    }, 
 }
 
 export default function RootLayout({
