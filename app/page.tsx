@@ -1,7 +1,8 @@
 import Image from "next/image"
 import Link from "next/link"
-import { Phone, MapPin, Clock, PenToolIcon as Tool, ShoppingBag, CheckCircle } from "lucide-react"
+import { Phone, MapPin, Clock, PenToolIcon as Tool, ShoppingBag, CheckCircle, MessageCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { WhatsAppButton } from "@/components/whatsapp-button"
 
 export default function Home() {
   return (
@@ -248,6 +249,15 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+                <div className="flex items-center gap-4">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-green-500 to-green-400">
+                      <MessageCircle className="h-5 w-5 text-white" />
+                    </div>
+                    <div>
+                      <p className="font-medium">WhatsApp</p>
+                      <p className="text-muted-foreground">Chat with us on WhatsApp for quick responses</p>
+                    </div>
+                  </div>
                 <div className="flex flex-col gap-2">
                   <h4 className="text-lg font-semibold">Owner</h4>
                   <p className="text-muted-foreground">Mr. Kulandhaivel</p>
@@ -286,6 +296,7 @@ export default function Home() {
           </div>
         </div>
       </footer>
+      <WhatsAppButton />  
     </div>
   )
 }
